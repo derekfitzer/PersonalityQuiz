@@ -15,6 +15,9 @@
 		2896F7A425E69566005DFC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2896F7A225E69566005DFC80 /* LaunchScreen.storyboard */; };
 		2896F7AF25E69566005DFC80 /* PersonalityQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896F7AE25E69566005DFC80 /* PersonalityQuizTests.swift */; };
 		2896F7BA25E69566005DFC80 /* PersonalityQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896F7B925E69566005DFC80 /* PersonalityQuizUITests.swift */; };
+		2896F7CB25E695C0005DFC80 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896F7CA25E695C0005DFC80 /* QuizViewController.swift */; };
+		2896F7D025E695CF005DFC80 /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896F7CF25E695CF005DFC80 /* RevealViewController.swift */; };
+		2896F7D825E6BB68005DFC80 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896F7D725E6BB68005DFC80 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2896F7B525E69566005DFC80 /* PersonalityQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalityQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2896F7B925E69566005DFC80 /* PersonalityQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityQuizUITests.swift; sourceTree = "<group>"; };
 		2896F7BB25E69566005DFC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2896F7CA25E695C0005DFC80 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2896F7CF25E695CF005DFC80 /* RevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		2896F7D725E6BB68005DFC80 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				2896F79925E69563005DFC80 /* SceneDelegate.swift */,
 				2896F79B25E69563005DFC80 /* ViewController.swift */,
 				2896F79D25E69563005DFC80 /* Main.storyboard */,
+				2896F7D725E6BB68005DFC80 /* QuestionData.swift */,
+				2896F7CA25E695C0005DFC80 /* QuizViewController.swift */,
+				2896F7CF25E695CF005DFC80 /* RevealViewController.swift */,
 				2896F7A025E69566005DFC80 /* Assets.xcassets */,
 				2896F7A225E69566005DFC80 /* LaunchScreen.storyboard */,
 				2896F7A525E69566005DFC80 /* Info.plist */,
@@ -260,7 +269,10 @@
 			files = (
 				2896F79C25E69563005DFC80 /* ViewController.swift in Sources */,
 				2896F79825E69563005DFC80 /* AppDelegate.swift in Sources */,
+				2896F7D025E695CF005DFC80 /* RevealViewController.swift in Sources */,
+				2896F7D825E6BB68005DFC80 /* QuestionData.swift in Sources */,
 				2896F79A25E69563005DFC80 /* SceneDelegate.swift in Sources */,
+				2896F7CB25E695C0005DFC80 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
